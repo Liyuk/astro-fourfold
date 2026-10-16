@@ -6,7 +6,7 @@ It is designed for independent writers, engineers, researchers, and creators who
 
 ## Highlights
 
-- Markdown and MDX content collections
+- Markdown content collections
 - Writing archive with year pages and pagination
 - Ordered columns for guided reading
 - Cross-content tags
@@ -24,7 +24,7 @@ It is designed for independent writers, engineers, researchers, and creators who
 
 ## Demo
 
-https://liyuk.com/astro-fourfold/
+https://liyuk.github.io/astro-fourfold/
 
 ## Repository
 

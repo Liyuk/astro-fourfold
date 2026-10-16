@@ -8,6 +8,7 @@ const paths=[
   {title:'我想系统学习',description:'沿着一条有顺序的路径，从写作、判断和方法开始。',href:'/columns/'},
   {title:'我想按主题探索',description:'从标签开始，在不同年份和专栏之间横向移动。',href:'/tags/'},
   {title:'我想快速找一篇',description:'搜索标题、摘要、正文和标签。',href:'/search/'},
+  {title:'我想看看做过什么',description:'项目、研究和影像是写作之外的长期档案。',href:'/projects/'},
 ];
 ---
 <BaseLayout title="开始 · Fourfold"><header class="page-head container"><p class="eyebrow">Start here</p><h1>从你正在面对的问题开始。</h1><p>这里不是完整目录，而是几条更容易走进去的阅读路径。</p></header><section class="container paths">{paths.map((path,index)=><a href={sitePath(path.href)}><span>0{index+1}</span><div><h2>{path.title}</h2><p>{path.description}</p></div><b><Icon name="arrowRight" /></b></a>)}</section><p class="container muted">目前有 {writing.length} 篇写作，持续增加中。</p></BaseLayout>
