@@ -94,7 +94,7 @@ Fourfold 是一个面向独立作者、工程师、研究者和创作者的静�
 
 ## 页面截图
 
-以下截图来自本地开发服务器，展示的是中性示例内容，不包含任何真实作者资料：
+以下截图来自本地生产构建（`SITE_URL=https://liyuk.github.io`，`BASE_PATH=/astro-fourfold`），展示的是仓库里的示例内容，不包含任何真实作者资料：
 
 ### 首页
 
@@ -209,9 +209,9 @@ flowchart TD
 | 文章 | writing | 目录、收藏、复制、相关文章、上下篇 | `/writing/YYYY/MM/slug/` |
 | 专栏 | columns + writing | 连续阅读、篇序 | `/columns/slug/` |
 | 标签 | writing | 横向主题索引 | `/tags/slug/` |
-| 项目 | projects | 状态、类型、项目详情 | `/projects/YYYY/MM/slug/` |
-| 研究 | research | 类型、版本、摘要 | `/research/YYYY/MM/slug/` |
-| 影像 | photos | 画廊、图片 alt、封面 | `/photos/slug/` |
+| 项目 | projects | 状态、类型、项目详情、可选的演示和仓库链接 | `/projects/YYYY/MM/slug/` |
+| 研究 | research | 类型、版本、摘要、可选的论文和代码链接 | `/research/YYYY/MM/slug/` |
+| 影像 | photos | 短文、画廊、图片 alt、封面 | `/photos/slug/` |
 | 搜索 | writing | query、全文轻量匹配 | `/search/?q=...` |
 | 收藏 | localStorage | 当前设备收藏列表 | `/favorites/` |
 

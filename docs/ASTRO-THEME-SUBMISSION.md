@@ -12,7 +12,7 @@ https://github.com/Liyuk/astro-fourfold
 
 ## Demo
 
-https://liyuk.com/astro-fourfold/
+https://liyuk.github.io/astro-fourfold/
 
 ## Short description
 
@@ -37,7 +37,7 @@ The starter contains no real author identity, private data, database, server run
 
 ## Features
 
-- Markdown and MDX content collections
+- Markdown content collections
 - Writing archive with year pages and pagination
 - Ordered columns
 - Cross-content tags
@@ -61,7 +61,7 @@ The starter contains no real author identity, private data, database, server run
 - Content: Astro Content Collections, Markdown/MDX
 - Language: TypeScript
 - Deployment: GitHub Pages, CDN, static hosting
-- License: CC BY-NC-SA 4.0 placeholder configuration; replace before release if needed
+- License: this repository does not currently include a software license. `src/data/site.ts` only supplies a replaceable content-license label for the site footer.
 
 ## Screenshots
 
@@ -72,6 +72,9 @@ Additional screenshots:
 - `docs/screenshots/homepage.png`
 - `docs/screenshots/article.png`
 - `docs/screenshots/search.png`
+- `docs/screenshots/columns.png`
+- `docs/screenshots/projects.png`
+- `docs/screenshots/photos.png`
 
 ## Submission notes
 
