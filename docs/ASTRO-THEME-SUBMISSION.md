@@ -61,7 +61,7 @@ The starter contains no real author identity, private data, database, server run
 - Content: Astro Content Collections, Markdown/MDX
 - Language: TypeScript
 - Deployment: GitHub Pages, CDN, static hosting
-- License: this repository does not currently include a software license. `src/data/site.ts` only supplies a replaceable content-license label for the site footer.
+- License: MIT for the theme code (Copyright 2026 Liyuk). `src/data/site.ts` only supplies a replaceable content-license label for the site footer.
 
 ## Screenshots
 

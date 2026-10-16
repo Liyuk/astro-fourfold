@@ -144,7 +144,7 @@ BASE_PATH=/
 - `name`、`title`、`description`
 - `author.name`、`author.bio`、`author.email`
 - `social` 链接
-- `license`：页脚里的**内容**许可，不是仓库的软件许可证
+- `license`：页脚里的**内容**许可。主题代码本身是 [MIT](LICENSE)（Copyright 2026 Liyuk）；这里的 CC 协议只描述示例站点上的文章，换成你自己的站点后应改成你的内容协议
 - `writingPageSize`、`tagIndexThreshold`
 - `features`：搜索、收藏、主题、RSS、复制链接等开关
 
@@ -361,7 +361,7 @@ GitHub Pages 项目站点推送到 `main` 即可，前提是 Pages 使用 GitHub
 - Astro Showcase 提交评论：<https://github.com/withastro/roadmap/discussions/521#discussioncomment-18099696>
 - Astro Theme Portal：<https://portal.astro.build/>
 
-仓库目前**没有** `LICENSE` 文件。页脚里的 CC 协议只是 `src/data/site.ts` 的内容许可占位，可以改成你自己的内容协议；它不是这个仓库的软件许可证。公开发布衍生作品之前，需要另选并加入软件许可证。
+主题代码以 [MIT](LICENSE) 发布，版权人 Liyuk，年份 2026。页脚里的 CC BY-NC-SA 只是 `src/data/site.ts` 的内容许可占位，可以改成你自己的内容协议；它不是主题代码的许可证。
 
 ## 设计取舍
 
