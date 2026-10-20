@@ -16,8 +16,8 @@
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.19",
-    "@astrojs/sitemap": "^3.7.3",
-    "astro": "^7.2.4",
+    "@astrojs/sitemap": "^3.7.4",
+    "astro": "^7.4.0",
     "yaml": "^2.9.0"
   },
   "devDependencies": {
